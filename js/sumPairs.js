@@ -1,8 +1,4 @@
-var shallowEqualArrays = require('shallow-equal/arrays');
-
-
-// exports.
-sumPairs = function(num_array, target) {
+exports.sumPairs = function(num_array, target) {
     let pairs = [];
     // uniquePairs = [];
     for (let i = 0; i < num_array.length - 1; i++) {
